@@ -1,0 +1,23 @@
+PODS:
+  - MBProgressHUD (1.2.0)
+  - WProgressHUD (0.1.0):
+    - MBProgressHUD (~> 1.0)
+
+DEPENDENCIES:
+  - WProgressHUD (from `../WProgressHUD.podspec`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  WProgressHUD:
+    :path: "../WProgressHUD.podspec"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  WProgressHUD: 418961bb75fb97568338af919ade62fa5cd91542
+
+PODFILE CHECKSUM: e33c785b1967e1277eb2321d2198489ae237ec03
+
+COCOAPODS: 1.8.4
