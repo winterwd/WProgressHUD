@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WProgressHUD'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'WProgressHUD for HUD.'
 
 # This description is used to generate tags and improve search results.
@@ -17,10 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = "view loading and customer Toast"
   s.homepage         = 'http://www.jianshu.com/u/06f42a993882'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

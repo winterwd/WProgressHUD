@@ -7,7 +7,7 @@
 //
 
 #import "WToast.h"
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @implementation WToast
 #define WBackgoudColor [UIColor colorWithRed:10/255.0 green:10/255.0 blue:10/255.0 alpha:0.85];

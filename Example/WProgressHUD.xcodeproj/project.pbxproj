@@ -79,6 +79,7 @@
 		C89266C21EB9D60F009A6AEE /* UIView+WProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WProgressHUD.m"; sourceTree = "<group>"; };
 		C89266C31EB9D76E009A6AEE /* WToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WToast.h; sourceTree = "<group>"; };
 		C89266C41EB9D76E009A6AEE /* WToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WToast.m; sourceTree = "<group>"; };
+		C8C2CC6D23F55EBA00CADC6A /* WProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WProgressHUD.h; sourceTree = "<group>"; };
 		E28FF6F96A811759D8D637F2 /* WProgressHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WProgressHUD.podspec; path = ../WProgressHUD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F97BACD6E8066B96BA32D2D5 /* Pods-WProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WProgressHUD_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WProgressHUD_Example/Pods-WProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,6 +231,7 @@
 				C89266C41EB9D76E009A6AEE /* WToast.m */,
 				C89266C11EB9D60F009A6AEE /* UIView+WProgressHUD.h */,
 				C89266C21EB9D60F009A6AEE /* UIView+WProgressHUD.m */,
+				C8C2CC6D23F55EBA00CADC6A /* WProgressHUD.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
