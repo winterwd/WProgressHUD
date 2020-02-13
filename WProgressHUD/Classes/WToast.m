@@ -7,7 +7,7 @@
 //
 
 #import "WToast.h"
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @implementation WToast
 #define WBackgoudColor [UIColor colorWithRed:10/255.0 green:10/255.0 blue:10/255.0 alpha:0.85];
@@ -134,22 +134,22 @@
 #pragma mark - toast only text
 
 + (void)showToast:(NSString *)tip {
-    [self showHudTipStr:tip offsetY:0];
+    [self showHudTipString:tip offsetY:0];
 }
 
 + (void)showTopToast:(NSString *)tip {
-    [self showHudTipStr:tip offsetY:-MBProgressMaxOffset];
+    [self showHudTipString:tip offsetY:-MBProgressMaxOffset];
 }
 
-+ (void)showBottomToast:(NSString *)tip{
-    [self showHudTipStr:tip offsetY:MBProgressMaxOffset];
++ (void)showBottomToast:(NSString *)tip {
+    [self showHudTipString:tip offsetY:MBProgressMaxOffset];
 }
 
 #pragma mark - Tip
 
 + (NSString *)tipFromError:(NSError *)error {
     if (error && error.userInfo) {
-        NSMutableString *tipStr = [NSMutableString string];
+        NSMutableString *tipString = [NSMutableString string];
         if ([error.userInfo objectForKey:@"msg"]) {
             id msg = [error.userInfo objectForKey:@"msg"];
             if ([msg isKindOfClass:[NSDictionary class]]) {
@@ -158,50 +158,49 @@
                 for (int i = 0; i < num; i++) {
                     NSString *msgStr = [msgArray objectAtIndex:i];
                     if (i+1 < num) {
-                        [tipStr appendString:[NSString stringWithFormat:@"%@\n",msgStr]];
+                        [tipString appendString:[NSString stringWithFormat:@"%@\n",msgStr]];
                     }
                     else {
-                        [tipStr appendString:msgStr];
+                        [tipString appendString:msgStr];
                     }
                 }
             }
             else if ([msg isKindOfClass:[NSString class]]) {
-                tipStr = msg;
+                tipString = msg;
             }
         }
         else {
             if ([error.userInfo objectForKey:@"NSLocalizedDescription"]) {
-                tipStr = [error.userInfo objectForKey:@"NSLocalizedDescription"];
+                tipString = [error.userInfo objectForKey:@"NSLocalizedDescription"];
             }
             else {
                 NSError *underlyingError = error.userInfo[@"NSUnderlyingError"];
                 if (underlyingError) {
                     return [self tipFromError:underlyingError];
                 }
-                else [tipStr appendFormat:@"ErrorCode %ld",(long)error.code];
+                else [tipString appendFormat:@"ErrorCode %ld",(long)error.code];
             }
         }
-        return tipStr;
+        return tipString;
     }
     return nil;
 }
 
-+ (BOOL)showError:(NSError *)error {
-    NSString *tipStr = [self tipFromError:error];
-    [self showHudTipStr:tipStr offsetY:0];
-    return YES;
++ (void)showError:(NSError *)error {
+    NSString *tipString = [self tipFromError:error];
+    [self showHudTipString:tipString offsetY:0];
 }
 
-+ (void)showHudTipStr:(NSString *)tipStr {
-    [self showHudTipStr:tipStr offsetY:0];
++ (void)showHudTipString:(NSString *)tipString {
+    [self showHudTipString:tipString offsetY:0];
 }
 
 /**
  offsetY 0:中间; MBProgressMaxOffset:底部; -MBProgressMaxOffset:顶部
  */
-+ (void)showHudTipStr:(NSString *)tipStr offsetY:(CGFloat)offsetY {
-    if (tipStr && tipStr.length > 0) {
-        NSTimeInterval afterDelay = [self calculateDelayTimeWith:tipStr];
++ (void)showHudTipString:(NSString *)tipString offsetY:(CGFloat)offsetY {
+    if (tipString && tipString.length > 0) {
+        NSTimeInterval afterDelay = [self calculateDelayTimeWith:tipString];
         
         UIWindow *keyWindow = [UIApplication sharedApplication].keyWindow;
         UIView *superView = [[UIView alloc] initWithFrame:keyWindow.bounds];
@@ -215,17 +214,17 @@
         hud.mode = MBProgressHUDModeText;
         hud.margin = 15.f;
         
-        NSArray *tips = [tipStr componentsSeparatedByString:@"\n"];
+        NSArray *tips = [tipString componentsSeparatedByString:@"\n"];
         if (tips.count > 1) {
             NSString *firstTip = [tips firstObject];
             hud.label.text = firstTip;
-            NSString *string = [[tipStr componentsSeparatedByString:[NSString stringWithFormat:@"%@\n",firstTip]] lastObject];
+            NSString *string = [[tipString componentsSeparatedByString:[NSString stringWithFormat:@"%@\n",firstTip]] lastObject];
             hud.detailsLabel.text = string;
             hud.detailsLabel.numberOfLines = 0;
             hud.detailsLabel.font = [UIFont boldSystemFontOfSize:13.0];
         }
         else
-            hud.label.text = tipStr;
+            hud.label.text = tipString;
         
         hud.removeFromSuperViewOnHide = YES;
         hud.offset = CGPointMake(0.f, offsetY);

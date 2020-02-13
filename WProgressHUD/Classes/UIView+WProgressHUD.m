@@ -9,7 +9,7 @@
 #import "UIView+WProgressHUD.h"
 #import <ImageIO/ImageIO.h>
 #import <objc/runtime.h>
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 
 /**
  为了避免和 SDWebImage 的UIImage+GIF.h冲突，改名

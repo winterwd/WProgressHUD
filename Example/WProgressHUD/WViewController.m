@@ -7,8 +7,7 @@
 //
 
 #import "WViewController.h"
-#import "UIView+WProgressHUD.h"
-#import "WToast.h"
+#import "WProgressHUD.h"
 
 @interface WExample : NSObject
 @property (nonatomic, copy) NSString *title;
