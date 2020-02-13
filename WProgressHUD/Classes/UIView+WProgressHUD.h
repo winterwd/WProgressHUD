@@ -15,7 +15,7 @@
 - (void)endLoading;
 
 - (void)beginLoading;
-- (void)beginLoadingWithTip:(NSString *)tip;
+- (void)beginLoadingWithTip:(NSString * _Nullable)tip;
 - (void)beginNoTipLoading;
 
 @end
@@ -39,7 +39,7 @@
  
  @param tip 提示文字
  */
-- (void)beginGifLoadingWithTip:(NSString *)tip;
+- (void)beginGifLoadingWithTip:(NSString * _Nullable )tip;
 @end
 
 #pragma mark - 自定义Image 感觉这个没什么卵用
@@ -61,5 +61,5 @@
  
  @param tip 提示文字
  */
-- (void)beginImageLoadingWithTip:(NSString *)tip;
+- (void)beginImageLoadingWithTip:(NSString * _Nullable )tip;
 @end
