@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		C87F7DC623F3C5A200E40F0D /* WProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F7DB623F3C5A200E40F0D /* WProgressHUD.h */; };
 		C87F7DC723F3C5A200E40F0D /* UIView+WProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F7DB823F3C5A200E40F0D /* UIView+WProgressHUD.m */; };
-		C87F7DC823F3C5A200E40F0D /* WToast.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F7DB923F3C5A200E40F0D /* WToast.h */; };
+		C87F7DC823F3C5A200E40F0D /* WToast.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F7DB923F3C5A200E40F0D /* WToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C87F7DCA23F3C5A200E40F0D /* WToast.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F7DBB23F3C5A200E40F0D /* WToast.m */; };
-		C87F7DCB23F3C5A200E40F0D /* UIView+WProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F7DBC23F3C5A200E40F0D /* UIView+WProgressHUD.h */; };
-		C87F7DCC23F3C5A200E40F0D /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DBE23F3C5A200E40F0D /* error@3x.png */; };
-		C87F7DCD23F3C5A200E40F0D /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DBF23F3C5A200E40F0D /* error@2x.png */; };
-		C87F7DCE23F3C5A200E40F0D /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC023F3C5A200E40F0D /* info@3x.png */; };
-		C87F7DCF23F3C5A200E40F0D /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC123F3C5A200E40F0D /* success@2x.png */; };
-		C87F7DD123F3C5A200E40F0D /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC323F3C5A200E40F0D /* success@3x.png */; };
-		C87F7DD223F3C5A200E40F0D /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC423F3C5A200E40F0D /* info@2x.png */; };
+		C87F7DCB23F3C5A200E40F0D /* UIView+WProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F7DBC23F3C5A200E40F0D /* UIView+WProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C87F7DD323F3C5A200E40F0D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC523F3C5A200E40F0D /* Info.plist */; };
+		C87F7DD423F3D66C00E40F0D /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DBF23F3C5A200E40F0D /* error@2x.png */; };
+		C87F7DD523F3D66C00E40F0D /* error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DBE23F3C5A200E40F0D /* error@3x.png */; };
+		C87F7DD623F3D66C00E40F0D /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC423F3C5A200E40F0D /* info@2x.png */; };
+		C87F7DD723F3D66C00E40F0D /* info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC023F3C5A200E40F0D /* info@3x.png */; };
+		C87F7DD823F3D66C00E40F0D /* success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC123F3C5A200E40F0D /* success@2x.png */; };
+		C87F7DD923F3D66C00E40F0D /* success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87F7DC323F3C5A200E40F0D /* success@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,8 +106,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87F7DCB23F3C5A200E40F0D /* UIView+WProgressHUD.h in Headers */,
 				C87F7DC823F3C5A200E40F0D /* WToast.h in Headers */,
+				C87F7DCB23F3C5A200E40F0D /* UIView+WProgressHUD.h in Headers */,
 				C87F7DC623F3C5A200E40F0D /* WProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,13 +170,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C87F7DCD23F3C5A200E40F0D /* error@2x.png in Resources */,
-				C87F7DD123F3C5A200E40F0D /* success@3x.png in Resources */,
+				C87F7DD723F3D66C00E40F0D /* info@3x.png in Resources */,
+				C87F7DD923F3D66C00E40F0D /* success@3x.png in Resources */,
+				C87F7DD623F3D66C00E40F0D /* info@2x.png in Resources */,
+				C87F7DD823F3D66C00E40F0D /* success@2x.png in Resources */,
+				C87F7DD523F3D66C00E40F0D /* error@3x.png in Resources */,
 				C87F7DD323F3C5A200E40F0D /* Info.plist in Resources */,
-				C87F7DCE23F3C5A200E40F0D /* info@3x.png in Resources */,
-				C87F7DCF23F3C5A200E40F0D /* success@2x.png in Resources */,
-				C87F7DD223F3C5A200E40F0D /* info@2x.png in Resources */,
-				C87F7DCC23F3C5A200E40F0D /* error@3x.png in Resources */,
+				C87F7DD423F3D66C00E40F0D /* error@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
