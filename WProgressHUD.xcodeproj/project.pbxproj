@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C85DA8C02B2BFE97003E09C0 /* NSBundle+WProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C85DA8BE2B2BFE97003E09C0 /* NSBundle+WProgressHUD.h */; };
+		C85DA8C12B2BFE97003E09C0 /* NSBundle+WProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C85DA8BF2B2BFE97003E09C0 /* NSBundle+WProgressHUD.m */; };
+		C85DA8C82B2BFF34003E09C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C85DA8C32B2BFF33003E09C0 /* Localizable.strings */; };
+		C85DA8C92B2BFF34003E09C0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C85DA8C62B2BFF34003E09C0 /* Localizable.strings */; };
 		C87F7DC623F3C5A200E40F0D /* WProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F7DB623F3C5A200E40F0D /* WProgressHUD.h */; };
 		C87F7DC723F3C5A200E40F0D /* UIView+WProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C87F7DB823F3C5A200E40F0D /* UIView+WProgressHUD.m */; };
 		C87F7DC823F3C5A200E40F0D /* WToast.h in Headers */ = {isa = PBXBuildFile; fileRef = C87F7DB923F3C5A200E40F0D /* WToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C85DA8BE2B2BFE97003E09C0 /* NSBundle+WProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+WProgressHUD.h"; sourceTree = "<group>"; };
+		C85DA8BF2B2BFE97003E09C0 /* NSBundle+WProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+WProgressHUD.m"; sourceTree = "<group>"; };
+		C85DA8C42B2BFF33003E09C0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		C85DA8C72B2BFF34003E09C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		C87F7DAA23F3C54500E40F0D /* WProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87F7DB623F3C5A200E40F0D /* WProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WProgressHUD.h; sourceTree = "<group>"; };
 		C87F7DB823F3C5A200E40F0D /* UIView+WProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WProgressHUD.m"; sourceTree = "<group>"; };
@@ -48,6 +56,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C85DA8C22B2BFF33003E09C0 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C85DA8C32B2BFF33003E09C0 /* Localizable.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		C85DA8C52B2BFF34003E09C0 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C85DA8C62B2BFF34003E09C0 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
 		C87F7DA023F3C54400E40F0D = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +104,8 @@
 			children = (
 				C87F7DB923F3C5A200E40F0D /* WToast.h */,
 				C87F7DBB23F3C5A200E40F0D /* WToast.m */,
+				C85DA8BE2B2BFE97003E09C0 /* NSBundle+WProgressHUD.h */,
+				C85DA8BF2B2BFE97003E09C0 /* NSBundle+WProgressHUD.m */,
 				C87F7DBC23F3C5A200E40F0D /* UIView+WProgressHUD.h */,
 				C87F7DB823F3C5A200E40F0D /* UIView+WProgressHUD.m */,
 			);
@@ -89,6 +115,8 @@
 		C87F7DBD23F3C5A200E40F0D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				C85DA8C52B2BFF34003E09C0 /* en.lproj */,
+				C85DA8C22B2BFF33003E09C0 /* zh-Hans.lproj */,
 				C87F7DBF23F3C5A200E40F0D /* error@2x.png */,
 				C87F7DBE23F3C5A200E40F0D /* error@3x.png */,
 				C87F7DC423F3C5A200E40F0D /* info@2x.png */,
@@ -106,6 +134,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85DA8C02B2BFE97003E09C0 /* NSBundle+WProgressHUD.h in Headers */,
 				C87F7DC823F3C5A200E40F0D /* WToast.h in Headers */,
 				C87F7DCB23F3C5A200E40F0D /* UIView+WProgressHUD.h in Headers */,
 				C87F7DC623F3C5A200E40F0D /* WProgressHUD.h in Headers */,
@@ -154,6 +183,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C87F7DA023F3C54400E40F0D;
 			productRefGroup = C87F7DAB23F3C54500E40F0D /* Products */;
@@ -174,7 +204,9 @@
 				C87F7DD923F3D66C00E40F0D /* success@3x.png in Resources */,
 				C87F7DD623F3D66C00E40F0D /* info@2x.png in Resources */,
 				C87F7DD823F3D66C00E40F0D /* success@2x.png in Resources */,
+				C85DA8C92B2BFF34003E09C0 /* Localizable.strings in Resources */,
 				C87F7DD523F3D66C00E40F0D /* error@3x.png in Resources */,
+				C85DA8C82B2BFF34003E09C0 /* Localizable.strings in Resources */,
 				C87F7DD323F3C5A200E40F0D /* Info.plist in Resources */,
 				C87F7DD423F3D66C00E40F0D /* error@2x.png in Resources */,
 			);
@@ -187,12 +219,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C85DA8C12B2BFE97003E09C0 /* NSBundle+WProgressHUD.m in Sources */,
 				C87F7DC723F3C5A200E40F0D /* UIView+WProgressHUD.m in Sources */,
 				C87F7DCA23F3C5A200E40F0D /* WToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C85DA8C32B2BFF33003E09C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85DA8C42B2BFF33003E09C0 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C85DA8C62B2BFF34003E09C0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C85DA8C72B2BFF34003E09C0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C87F7DB023F3C54500E40F0D /* Debug */ = {

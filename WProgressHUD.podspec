@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WProgressHUD'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'WProgressHUD for HUD.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = "view loading and customer Toast"
-  s.homepage         = 'http://www.jianshu.com/u/06f42a993882'
+  s.homepage         = 'https://github.com/winterwd/WProgressHUD'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'winter.wd' => 'winterw201501@gmail.com' }
@@ -27,12 +27,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'WProgressHUD/Classes/**/*'
+  s.source_files = 'WProgressHUD/Classes/*.{h,m}'
   
   s.resource_bundles = {
-    'WProgressHUD' => ['WProgressHUD/Assets/*.png']
+    'WProgressHUD' => ['WProgressHUD/Assets/*.png', 'WProgressHUD/Assets/*.lproj/*.strings']
   }
 
   s.public_header_files = 'WProgressHUD/Classes/**/*.h'
-  s.dependency 'MBProgressHUD', '~>1.0'
+  s.dependency 'MBProgressHUD'
 end

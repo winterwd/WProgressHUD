@@ -11,7 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSBundle (WProgressHUD)
-
+#pragma mark - Getting Resources from Bundle
++ (NSBundle *)w_resourcesBundle;
++ (NSString *)w_localizedStringForKey:(NSString *)key;
++ (UIImage *)w_loadImageFromResourceBundle:(NSString *)imageName;
 @end
 
 NS_ASSUME_NONNULL_END
