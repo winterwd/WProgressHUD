@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00567E8D60A52B8440E78672 /* Pods_WProgressHUD_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C7125CD3CA3B3B8B6851035 /* Pods_WProgressHUD_Tests.framework */; };
 		4814544B2BF3990E0DA50226 /* Pods_WProgressHUD_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B92546F49FE964B1A060239 /* Pods_WProgressHUD_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -40,9 +39,6 @@
 
 /* Begin PBXFileReference section */
 		0B92546F49FE964B1A060239 /* Pods_WProgressHUD_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WProgressHUD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		417F1982A32CB28798EA30B3 /* Pods-WProgressHUD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WProgressHUD_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WProgressHUD_Tests/Pods-WProgressHUD_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4C7125CD3CA3B3B8B6851035 /* Pods_WProgressHUD_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WProgressHUD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A947BFA96C79EE945A06CCC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WProgressHUD_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WProgressHUD_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,16 +49,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62ACE8817A9F7881C41AA974 /* Pods-WProgressHUD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WProgressHUD_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WProgressHUD_Tests/Pods-WProgressHUD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9833E9F628247A8B6A744976 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A8D4A5AD562F1B94C5DFD466 /* Pods-WProgressHUD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WProgressHUD_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WProgressHUD_Example/Pods-WProgressHUD_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C844FE6F23F2F745003488A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = WProgressHUD/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		C85B539B23F2EAEB00C4FC2D /* success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@3x.png"; sourceTree = "<group>"; };
-		C85B539C23F2EAEB00C4FC2D /* info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@3x.png"; sourceTree = "<group>"; };
-		C85B539D23F2EAEB00C4FC2D /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
-		C85B539E23F2EAEB00C4FC2D /* error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@3x.png"; sourceTree = "<group>"; };
-		C85B539F23F2EAEB00C4FC2D /* success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "success@2x.png"; sourceTree = "<group>"; };
-		C85B53A023F2EAEB00C4FC2D /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
 		C85B53A923F2F2DD00C4FC2D /* WViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WViewController.h; path = WProgressHUD/WViewController.h; sourceTree = SOURCE_ROOT; };
 		C85B53AA23F2F2DD00C4FC2D /* WViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WViewController.m; path = WProgressHUD/WViewController.m; sourceTree = SOURCE_ROOT; };
 		C85B53AC23F2F2EB00C4FC2D /* WAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WAppDelegate.h; path = WProgressHUD/WAppDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -75,12 +63,6 @@
 		C85B53B923F2F3E000C4FC2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = WProgressHUD/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		C85B53BB23F2F3FA00C4FC2D /* WProgressHUD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "WProgressHUD-Info.plist"; path = "WProgressHUD/WProgressHUD-Info.plist"; sourceTree = SOURCE_ROOT; };
 		C85B53BE23F2F49E00C4FC2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = WProgressHUD/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
-		C89266C11EB9D60F009A6AEE /* UIView+WProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WProgressHUD.h"; sourceTree = "<group>"; };
-		C89266C21EB9D60F009A6AEE /* UIView+WProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WProgressHUD.m"; sourceTree = "<group>"; };
-		C89266C31EB9D76E009A6AEE /* WToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WToast.h; sourceTree = "<group>"; };
-		C89266C41EB9D76E009A6AEE /* WToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WToast.m; sourceTree = "<group>"; };
-		C8C2CC6D23F55EBA00CADC6A /* WProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WProgressHUD.h; sourceTree = "<group>"; };
-		E28FF6F96A811759D8D637F2 /* WProgressHUD.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WProgressHUD.podspec; path = ../WProgressHUD.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F97BACD6E8066B96BA32D2D5 /* Pods-WProgressHUD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WProgressHUD_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WProgressHUD_Example/Pods-WProgressHUD_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				00567E8D60A52B8440E78672 /* Pods_WProgressHUD_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +94,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				C89266B91EB9C8AC009A6AEE /* WProgressHUD */,
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for WProgressHUD */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
@@ -140,7 +119,6 @@
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				0B92546F49FE964B1A060239 /* Pods_WProgressHUD_Example.framework */,
-				4C7125CD3CA3B3B8B6851035 /* Pods_WProgressHUD_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,60 +171,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				E28FF6F96A811759D8D637F2 /* WProgressHUD.podspec */,
-				5A947BFA96C79EE945A06CCC /* README.md */,
-				9833E9F628247A8B6A744976 /* LICENSE */,
-			);
-			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
 		9CBDC5FCE23F5F1F7BFBA076 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				A8D4A5AD562F1B94C5DFD466 /* Pods-WProgressHUD_Example.debug.xcconfig */,
 				F97BACD6E8066B96BA32D2D5 /* Pods-WProgressHUD_Example.release.xcconfig */,
-				62ACE8817A9F7881C41AA974 /* Pods-WProgressHUD_Tests.debug.xcconfig */,
-				417F1982A32CB28798EA30B3 /* Pods-WProgressHUD_Tests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		C89266B91EB9C8AC009A6AEE /* WProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				C89266C51EB9E0CF009A6AEE /* Assets */,
-				C89266BC1EB9C8AC009A6AEE /* Classes */,
-			);
-			name = WProgressHUD;
-			path = ../WProgressHUD;
-			sourceTree = "<group>";
-		};
-		C89266BC1EB9C8AC009A6AEE /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C89266C31EB9D76E009A6AEE /* WToast.h */,
-				C89266C41EB9D76E009A6AEE /* WToast.m */,
-				C89266C11EB9D60F009A6AEE /* UIView+WProgressHUD.h */,
-				C89266C21EB9D60F009A6AEE /* UIView+WProgressHUD.m */,
-				C8C2CC6D23F55EBA00CADC6A /* WProgressHUD.h */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C89266C51EB9E0CF009A6AEE /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				C85B53A023F2EAEB00C4FC2D /* error@2x.png */,
-				C85B539E23F2EAEB00C4FC2D /* error@3x.png */,
-				C85B539D23F2EAEB00C4FC2D /* info@2x.png */,
-				C85B539C23F2EAEB00C4FC2D /* info@3x.png */,
-				C85B539F23F2EAEB00C4FC2D /* success@2x.png */,
-				C85B539B23F2EAEB00C4FC2D /* success@3x.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +206,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "WProgressHUD_Tests" */;
 			buildPhases = (
-				EC65EBA1B858C230B9D985BB /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -296,8 +226,9 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				CLASSPREFIX = W;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = winter;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -382,24 +313,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WProgressHUD_Example/Pods-WProgressHUD_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC65EBA1B858C230B9D985BB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WProgressHUD_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -491,6 +404,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -515,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -544,6 +458,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -561,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -600,7 +515,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62ACE8817A9F7881C41AA974 /* Pods-WProgressHUD_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -624,7 +538,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 417F1982A32CB28798EA30B3 /* Pods-WProgressHUD_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
